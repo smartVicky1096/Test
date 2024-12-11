@@ -25,6 +25,7 @@ public class Test_Contact {
 	driver.manage().window().maximize();
 	
 }
+
 	@Test
 	public void contact() {
 		driver.get("http://13.201.85.29:3000/");
