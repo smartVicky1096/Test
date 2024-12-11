@@ -28,7 +28,15 @@ public class Test_Url {
 	}
 @AfterMethod
 public void conclude() {
-	driver.quit();
+	driver.close();
 	
 }
 }
+
+
+
+
+
+
+
+
