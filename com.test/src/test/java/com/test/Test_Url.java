@@ -19,6 +19,7 @@ public class Test_Url {
 		 driver= new EdgeDriver();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
+		
 		driver.get("http://13.201.85.29:3000/");
 	}
 @Test
